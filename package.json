@@ -1,0 +1,40 @@
+{
+  "name": "haraka-plugin-rcpt_to-strip-tagging",
+  "version": "1.0.0",
+  "description": "Strip email addresses of tagging (e.g. foo-tag@example.com -> foo@example.com)",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+  },
+  "devDependencies": {
+    "address-rfc2821": "*",
+    "eslint": "*",
+    "eslint-plugin-haraka": "*",
+    "haraka-test-fixtures": "*",
+    "nodeunit": "*"
+  },
+  "scripts": {
+    "lint": "node node_modules/.bin/eslint *.js test/*.js",
+    "lintfix": "node node_modules/.bin/eslint --fix *.js test/*.js",
+    "test": "node run_tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haraka/haraka-plugin-rcpt_to-strip-tagging.git"
+  },
+  "keywords": [
+    "haraka",
+    "smtp",
+    "mta",
+    "limit"
+  ],
+  "author": "Matt Sergeant <helpme@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/haraka/haraka-plugin-rcpt_to-strip-tagging/issues"
+  },
+  "homepage": "https://github.com/haraka/haraka-plugin-rcpt_to-strip-tagging#readme"
+}
+
