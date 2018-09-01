@@ -2,7 +2,6 @@
 
 [![Build Status][ci-img]][ci-url]
 [![Windows Build Status][ci-win-img]][ci-win-url]
-[![Code Climate][clim-img]][clim-url]
 [![NPM][npm-img]][npm-url]
 
 Strip tagging from inbound rcpt\_to addresses
@@ -25,8 +24,6 @@ echo 'rcpt_to-strip-tagging' >> config/plugins
 [ci-win-url]: https://ci.appveyor.com/project/msimerson/haraka-plugin-rcpt_to-strip-tagging
 [cov-img]: https://codecov.io/github/haraka/haraka-plugin-rcpt_to-strip-tagging/coverage.svg
 [cov-url]: https://codecov.io/github/haraka/haraka-plugin-rcpt_to-strip-tagging
-[clim-img]: https://codeclimate.com/github/haraka/haraka-plugin-rcpt_to-strip-tagging/badges/gpa.svg
-[clim-url]: https://codeclimate.com/github/haraka/haraka-plugin-rcpt_to-strip-tagging
 [gk-img]: https://badges.greenkeeper.io/haraka/haraka-plugin-rcpt_to-strip-tagging.svg
 [gk-url]: https://greenkeeper.io/
 [npm-img]: https://nodei.co/npm/haraka-plugin-rcpt_to-strip-tagging.png
