@@ -7,18 +7,21 @@
     "test": "test"
   },
   "dependencies": {
+    "address-rfc2821": "*"
   },
   "devDependencies": {
-    "address-rfc2821": "*",
-    "eslint": "*",
+    "eslint": ">=3",
     "eslint-plugin-haraka": "*",
     "haraka-test-fixtures": "*",
-    "nodeunit": "*"
+    "nyc": "^11.9.0",
+    "mocha": "*"
   },
   "scripts": {
     "lint": "node node_modules/.bin/eslint *.js test/*.js",
     "lintfix": "node node_modules/.bin/eslint --fix *.js test/*.js",
-    "test": "node run_tests"
+    "test": "nyc ./node_modules/.bin/mocha",
+    "codecov": "nyc report --reporter=lcov > coverage.lcov; codecov",
+    "codecov-html": "nyc report --reporter=html"
   },
   "repository": {
     "type": "git",
@@ -37,4 +40,3 @@
   },
   "homepage": "https://github.com/haraka/haraka-plugin-rcpt_to-strip-tagging#readme"
 }
-
