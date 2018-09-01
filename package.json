@@ -20,9 +20,12 @@
   "scripts": {
     "lint": "node node_modules/.bin/eslint *.js test/*.js",
     "lintfix": "node node_modules/.bin/eslint --fix *.js test/*.js",
-    "test": "nyc ./node_modules/.bin/mocha",
+    "test": "nyc mocha",
     "codecov": "nyc report --reporter=lcov > coverage.lcov; codecov",
     "codecov-html": "nyc report --reporter=html"
+  },
+  "nyc": {
+    "all": true
   },
   "repository": {
     "type": "git",
