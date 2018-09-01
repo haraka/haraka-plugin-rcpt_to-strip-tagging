@@ -15,7 +15,6 @@ npm i haraka-plugin-rcpt_to-strip-tagging
 echo 'rcpt_to-strip-tagging' >> config/plugins
 ```
 
-
 [![Code Coverage][cov-img]][cov-url]
 [![Greenkeeper badge][gk-img]][gk-url]
 
