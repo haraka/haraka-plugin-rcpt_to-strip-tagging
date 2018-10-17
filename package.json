@@ -13,19 +13,12 @@
     "eslint": ">=3",
     "eslint-plugin-haraka": "*",
     "haraka-test-fixtures": "*",
-    "nyc": "^11.9.0",
-    "codecov": "^3.0.2",
     "mocha": "*"
   },
   "scripts": {
     "lint": "node node_modules/.bin/eslint *.js test/*.js",
     "lintfix": "node node_modules/.bin/eslint --fix *.js test/*.js",
-    "test": "nyc mocha",
-    "codecov": "nyc report --reporter=lcov > coverage.lcov; codecov",
-    "codecov-html": "nyc report --reporter=html"
-  },
-  "nyc": {
-    "all": true
+    "test": "mocha",
   },
   "repository": {
     "type": "git",

@@ -14,7 +14,6 @@ npm i haraka-plugin-rcpt_to-strip-tagging
 echo 'rcpt_to-strip-tagging' >> config/plugins
 ```
 
-[![Code Coverage][cov-img]][cov-url]
 [![Greenkeeper badge][gk-img]][gk-url]
 
 
@@ -22,8 +21,6 @@ echo 'rcpt_to-strip-tagging' >> config/plugins
 [ci-url]: https://travis-ci.org/haraka/haraka-plugin-rcpt_to-strip-tagging
 [ci-win-img]: https://ci.appveyor.com/api/projects/status/lfpoq64p53tylqww?svg=true
 [ci-win-url]: https://ci.appveyor.com/project/msimerson/haraka-plugin-rcpt_to-strip-tagging
-[cov-img]: https://codecov.io/github/haraka/haraka-plugin-rcpt_to-strip-tagging/coverage.svg
-[cov-url]: https://codecov.io/github/haraka/haraka-plugin-rcpt_to-strip-tagging
 [gk-img]: https://badges.greenkeeper.io/haraka/haraka-plugin-rcpt_to-strip-tagging.svg
 [gk-url]: https://greenkeeper.io/
 [npm-img]: https://nodei.co/npm/haraka-plugin-rcpt_to-strip-tagging.png
