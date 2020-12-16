@@ -10,15 +10,15 @@
     "address-rfc2821": "*"
   },
   "devDependencies": {
-    "eslint": ">=3",
+    "eslint": ">=5",
     "eslint-plugin-haraka": "*",
     "haraka-test-fixtures": "*",
     "mocha": "*"
   },
   "scripts": {
-    "lint": "node node_modules/.bin/eslint *.js test/*.js",
-    "lintfix": "node node_modules/.bin/eslint --fix *.js test/*.js",
-    "test": "mocha"
+    "lint": "npx eslint *.js test/*.js",
+    "lintfix": "npx eslint --fix *.js test/*.js",
+    "test": "npx mocha"
   },
   "repository": {
     "type": "git",
